@@ -1,0 +1,5 @@
+Chicken breast,164:31:0:3
+Beef,250:26:0:15
+Lamb,294:25:0:21
+Rice,130:2:28:0
+Pork chop,152:21:0:7
