@@ -65,11 +65,15 @@ class Calculator(Frame):
             try:
                 gram = int(entryGram.get())
             except:
-                messagebox.showerror("Error", "Please enter correct data!")
+                Error = True
             try:
                 x = int(product)
-                messagebox.showerror("Error", "Please enter correct data!")
+                Error = True
             except:
+                pass
+            if Error == True:
+                messagebox.showerror("Error", "Please enter correct data!")
+            else:
                 Functions.file_open()
                 Functions.add_product(product, gram)
 
